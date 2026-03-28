@@ -1,0 +1,7 @@
+Total Customers = COUNT(telco_churn_unclean[customerID])
+Retained Customers = CALCULATE(COUNT(telco_churn_unclean[customerID]),telco_churn_unclean[Churn]="No")
+Churned Customers = CALCULATE(COUNT(telco_churn_unclean[customerID]),telco_churn_unclean[Churn]="Yes")
+Churn Rate % = DIVIDE([Churned Customers],[Total Customers] , 0)
+Avg Monthly Charges(Retained) = CALCULATE(AVERAGE(telco_churn_unclean[MonthlyCharges]),telco_churn_unclean[Churn]="No")
+Avg Monthly Charges(churned) = CALCULATE(AVERAGE(telco_churn_unclean[MonthlyCharges]),telco_churn_unclean[Churn]="Yes")
+Avg Monthly Charges = AVERAGE(telco_churn_unclean[MonthlyCharges])
