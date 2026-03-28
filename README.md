@@ -6,28 +6,51 @@ This project analyzes customer churn in a telecommunications company using Power
 The goal of this project is to identify patterns and factors that influence customer churn, such as contract type, tenure, monthly charges, and additional services. The insights from this analysis help businesses improve customer retention strategies and reduce revenue loss.# Customer-Churn-Dashboard
 📂 Dataset Information
 The dataset used in this project is telco_churn, which contains customer demographic details, subscribed services, billing information, and churn status.
-Dataset Columns     Column Name	Description
-customerID	        Unique identifier for each customer
-gender	            Customer gender
-SeniorCitizen	      Indicates whether the customer is a senior citizen (0 = No, 1 = Yes)
-Partner	            Whether the customer has a partner
-Dependents	        Whether the customer has dependents
-tenure	            Number of months the customer has stayed with the company
-PhoneService	      Whether the customer has phone service
-MultipleLines	      Whether the customer has multiple phone lines
-InternetService	    Type of internet service used
-OnlineSecurity	    Whether the customer has online security service
-OnlineBackup	      Whether the customer has online backup service
-DeviceProtection	  Whether the customer has device protection service
-TechSupport	        Whether the customer has technical support service
-StreamingTV	        Whether the customer uses streaming TV service
-StreamingMovies	    Whether the customer uses streaming movies service
-Contract	          Type of contract (Month-to-Month, One Year, Two Year)
-PaperlessBilling	  Whether the customer uses paperless billing
-PaymentMethod	      Payment method used by the customer
-MonthlyCharges	    Monthly amount charged to the customer
-TotalCharges	      Total amount charged to the customer
-Churn	Indicates     whether the customer left the service (Yes / No)
+
+
+Dataset Columns --- Column Name	Description
+
+customerID----Unique identifier for each customer
+
+gender----Customer gender
+
+SeniorCitizen----Indicates whether the customer is a senior citizen (0 = No, 1 = Yes)
+
+Partner----Whether the customer has a partner
+
+Dependents----Whether the customer has dependents
+
+tenure----Number of months the customer has stayed with the company
+
+PhoneService----Whether the customer has phone service
+
+MultipleLines----Whether the customer has multiple phone lines
+
+InternetService----Type of internet service used
+
+OnlineSecurity----Whether the customer has online security service
+
+OnlineBackup----Whether the customer has online backup service
+
+DeviceProtection----Whether the customer has device protection service
+
+TechSupport----Whether the customer has technical support service
+
+StreamingTV----Whether the customer uses streaming TV service
+
+StreamingMovies----Whether the customer uses streaming movies service
+
+Contract----Type of contract (Month-to-Month, One Year, Two Year)
+
+PaperlessBilling----Whether the customer uses paperless billing
+
+PaymentMethod----Payment method used by the customer
+
+MonthlyCharges----Monthly amount charged to the customer
+
+TotalCharges----Total amount charged to the customer
+
+Churn	Indicates----whether the customer left the service (Yes / No)
 
 🎯 Project Objectives
 The main objectives of this project are:
